@@ -1,36 +1,38 @@
-const data = [
-
+export const data = [
 
     {
-        pregunta: '¿Eres responsable del impuesto al patrimonio?',
+        pregunta: '¿La empresa es gran contribuyente?',
         choices: [
             'Si',
             'No'
         ],
 
     },
+
     {
-        pregunta: '¿Eres responsable del impuesto al patrimonio?',
+        pregunta: '¿Pertenece al Régimen Simple de Tributación?',
         choices: [
             'Si',
             'No'
         ],
 
     },
+
     {
-        pregunta: '¿Eres responsable del impuesto al patrimonio?',
+        pregunta: '¿Eres responsable del IVA?',
         choices: [
             'Si',
             'No'
         ],
 
     },
+
     {
-        pregunta: '¿Eres responsable del impuesto al patrimonio?',
+        pregunta: '¿La periodicidad en el pago del IVA es bimestral?',
         choices: [
             'Si',
             'No'
         ],
 
     },
-]
+];
