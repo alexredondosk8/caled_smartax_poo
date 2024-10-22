@@ -1,0 +1,50 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #272343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#encuesta {
+    background: #e3f6f5;
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: #FF0000;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#question {
+    font-size: 1.7rem;
+    color: #5a6772;
+}
+
+.button {
+    background-color: #FF0000;
+    color: white;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 10rem;
+    padding: 10px 10px;
+    margin: 10px 40px 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #5a6772;
+}
+
+#progreso {
+    font-size: 20px;
+}
